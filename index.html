@@ -10,18 +10,21 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 
-	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	
 	<body>
 
 	<div class="container">
 
-	<!-- QUESTIONS -->
-	<div class="question">
-
-		<img src="https://m.media-amazon.com/images/I/41YTzDbYU0L.jpg" id="duck-george">
-
+	<!-- george the duck -->
+	<div class="george">
+		<img src="https://cdn-icons-png.flaticon.com/256/1886/1886902.png" id="duck-george">
 		<h2>Hi, my name is <b>george</b>. Let's test your math skills !!</h2>
+	</div>
+	
+	<!-- QUESTIONS -->
 
+	<div class="question">
 		<br/>
 
 		<h5>Given:</h5>	
@@ -43,15 +46,18 @@
 		<br />
 		<br />
 
-		<hr />
-
 	<!-- ANSWER BUTTONS -->
 	<div class="answer-button">
 
 	<button type="button" id="product" class="btn btn-light" class="form-control" onclick="product$()">the product of a and b is</button>
+	<br />
 	<button type="button" id="product" class="btn btn-light" class="form-control" onclick="exponent$()">a raised to b</button>
 
+	<br />
+	<br />
+
 	<button type="button" id="product" class="btn btn-light" class="form-control" onclick="remainder$()">get the remainder</button>
+	<br />
 	<button type="button" id="product" class="btn btn-light" class="form-control" onclick="equal$()">check if a is equal to b</button>
 
 	<!-- FUNCTIONS -->
