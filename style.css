@@ -1,0 +1,44 @@
+body{
+	background-color:#ffe6f2;
+	color: white;
+}
+
+.container{
+	background-color: #333333;
+	padding: 20px;
+	margin-top: 5%;
+	margin-bottom: 10%;		
+}
+
+.question{
+	margin-right: 10%;
+}
+
+}
+
+.form-control{
+	width: 30%;
+}
+
+#duck-george{
+	width: 80px;
+}
+
+.answer-button{
+	text-align: center;
+	display: block;
+}
+
+.footer{
+	width: 100%;
+	background-color: white;
+	border: black 2px solid;
+	color: black;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+}
+
+.footer a{
+	color: black;
+}
